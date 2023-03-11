@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lora', serif;
+    height: 1000px;
+}
+
+/* Start navbar */
+.navbar .navbar-brand{
+    font-size: 30px;
+    color: #ffb340;
+}
+.navbar .navbar-toggler{
+    border: #ffb340 1px solid;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar .navbar-nav{
+    font-size: 20px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #ffb340;
+}
+/* End navbar */
+
+/* Start main-content */
+.row .content{
+    border: #ffb340 2.5px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.row .content a{
+    text-decoration: none;
+    color: black;
+}
+.row .content .title:hover{
+    color: #ffb340;
+}
+.row .content .back{
+    color: #ffb340;
+}
+/* End main-content */
